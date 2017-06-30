@@ -98,6 +98,7 @@ NSLog(@"errCode = %zd,errStr = %@",errCode,errStr);
 ```
 
 3.Apple Pay (没有刻意封装，根据需求接入吧)
+
 3.1 代理
 ```
 <RSApplePayDelegate>
