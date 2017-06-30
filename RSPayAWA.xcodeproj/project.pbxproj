@@ -1,0 +1,683 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		34DCAE0D1F0645470034F681 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 34DCAE0C1F0645470034F681 /* main.m */; };
+		34DCAE101F0645470034F681 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 34DCAE0F1F0645470034F681 /* AppDelegate.m */; };
+		34DCAE131F0645470034F681 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34DCAE121F0645470034F681 /* ViewController.m */; };
+		34DCAE161F0645470034F681 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34DCAE141F0645470034F681 /* Main.storyboard */; };
+		34DCAE181F0645470034F681 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34DCAE171F0645470034F681 /* Assets.xcassets */; };
+		34DCAE1B1F0645470034F681 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34DCAE191F0645470034F681 /* LaunchScreen.storyboard */; };
+		34DCAE261F0645470034F681 /* RSPayAWATests.m in Sources */ = {isa = PBXBuildFile; fileRef = 34DCAE251F0645470034F681 /* RSPayAWATests.m */; };
+		34DCAE311F0645470034F681 /* RSPayAWAUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 34DCAE301F0645470034F681 /* RSPayAWAUITests.m */; };
+		34DCAE5F1F06462F0034F681 /* AlipaySDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 34DCAE531F06462F0034F681 /* AlipaySDK.bundle */; };
+		34DCAE601F06462F0034F681 /* AlipaySDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34DCAE541F06462F0034F681 /* AlipaySDK.framework */; };
+		34DCAE631F06462F0034F681 /* libWeChatSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 34DCAE5B1F06462F0034F681 /* libWeChatSDK.a */; };
+		34DCAE661F0646740034F681 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34DCAE651F0646740034F681 /* CoreGraphics.framework */; };
+		34DCAE681F06467C0034F681 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34DCAE671F06467C0034F681 /* CoreText.framework */; };
+		34DCAE6A1F0646860034F681 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34DCAE691F0646860034F681 /* QuartzCore.framework */; };
+		34DCAE6C1F06469F0034F681 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34DCAE6B1F06469F0034F681 /* CoreTelephony.framework */; };
+		34DCAE6E1F0646A70034F681 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34DCAE6D1F0646A70034F681 /* SystemConfiguration.framework */; };
+		34DCAE701F0646B00034F681 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34DCAE6F1F0646B00034F681 /* CFNetwork.framework */; };
+		34DCAE721F0646BA0034F681 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34DCAE711F0646BA0034F681 /* CoreMotion.framework */; };
+		34DCAE741F0646C20034F681 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34DCAE731F0646C20034F681 /* Security.framework */; };
+		34DCAE761F0646C70034F681 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34DCAE751F0646C70034F681 /* UIKit.framework */; };
+		34DCAE781F0646CE0034F681 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34DCAE771F0646CE0034F681 /* Foundation.framework */; };
+		34DCAE7A1F0646D70034F681 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 34DCAE791F0646D70034F681 /* libc++.tbd */; };
+		34DCAE7C1F0646E10034F681 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 34DCAE7B1F0646E10034F681 /* libz.tbd */; };
+		34DCAE7E1F0646EB0034F681 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 34DCAE7D1F0646EB0034F681 /* libsqlite3.0.tbd */; };
+		34DCAE811F06473B0034F681 /* RSPayManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 34DCAE801F06473B0034F681 /* RSPayManager.m */; };
+		34DCAE841F06492B0034F681 /* RSApplePay.m in Sources */ = {isa = PBXBuildFile; fileRef = 34DCAE831F06492B0034F681 /* RSApplePay.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		34DCAE221F0645470034F681 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 34DCAE001F0645470034F681 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 34DCAE071F0645470034F681;
+			remoteInfo = RSPayAWA;
+		};
+		34DCAE2D1F0645470034F681 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 34DCAE001F0645470034F681 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 34DCAE071F0645470034F681;
+			remoteInfo = RSPayAWA;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		34DCAE081F0645470034F681 /* RSPayAWA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RSPayAWA.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		34DCAE0C1F0645470034F681 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		34DCAE0E1F0645470034F681 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		34DCAE0F1F0645470034F681 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		34DCAE111F0645470034F681 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		34DCAE121F0645470034F681 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		34DCAE151F0645470034F681 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		34DCAE171F0645470034F681 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		34DCAE1A1F0645470034F681 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		34DCAE1C1F0645470034F681 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		34DCAE211F0645470034F681 /* RSPayAWATests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RSPayAWATests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		34DCAE251F0645470034F681 /* RSPayAWATests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RSPayAWATests.m; sourceTree = "<group>"; };
+		34DCAE271F0645470034F681 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		34DCAE2C1F0645470034F681 /* RSPayAWAUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RSPayAWAUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		34DCAE301F0645470034F681 /* RSPayAWAUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RSPayAWAUITests.m; sourceTree = "<group>"; };
+		34DCAE321F0645470034F681 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		34DCAE531F06462F0034F681 /* AlipaySDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = AlipaySDK.bundle; sourceTree = "<group>"; };
+		34DCAE541F06462F0034F681 /* AlipaySDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AlipaySDK.framework; sourceTree = "<group>"; };
+		34DCAE5B1F06462F0034F681 /* libWeChatSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libWeChatSDK.a; sourceTree = "<group>"; };
+		34DCAE5C1F06462F0034F681 /* WechatAuthSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WechatAuthSDK.h; sourceTree = "<group>"; };
+		34DCAE5D1F06462F0034F681 /* WXApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApi.h; sourceTree = "<group>"; };
+		34DCAE5E1F06462F0034F681 /* WXApiObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApiObject.h; sourceTree = "<group>"; };
+		34DCAE651F0646740034F681 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		34DCAE671F06467C0034F681 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		34DCAE691F0646860034F681 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		34DCAE6B1F06469F0034F681 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		34DCAE6D1F0646A70034F681 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		34DCAE6F1F0646B00034F681 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		34DCAE711F0646BA0034F681 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		34DCAE731F0646C20034F681 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		34DCAE751F0646C70034F681 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		34DCAE771F0646CE0034F681 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		34DCAE791F0646D70034F681 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		34DCAE7B1F0646E10034F681 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		34DCAE7D1F0646EB0034F681 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		34DCAE7F1F06473B0034F681 /* RSPayManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSPayManager.h; sourceTree = "<group>"; };
+		34DCAE801F06473B0034F681 /* RSPayManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSPayManager.m; sourceTree = "<group>"; };
+		34DCAE821F06492B0034F681 /* RSApplePay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSApplePay.h; sourceTree = "<group>"; };
+		34DCAE831F06492B0034F681 /* RSApplePay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSApplePay.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		34DCAE051F0645470034F681 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34DCAE7E1F0646EB0034F681 /* libsqlite3.0.tbd in Frameworks */,
+				34DCAE7C1F0646E10034F681 /* libz.tbd in Frameworks */,
+				34DCAE7A1F0646D70034F681 /* libc++.tbd in Frameworks */,
+				34DCAE781F0646CE0034F681 /* Foundation.framework in Frameworks */,
+				34DCAE761F0646C70034F681 /* UIKit.framework in Frameworks */,
+				34DCAE741F0646C20034F681 /* Security.framework in Frameworks */,
+				34DCAE721F0646BA0034F681 /* CoreMotion.framework in Frameworks */,
+				34DCAE701F0646B00034F681 /* CFNetwork.framework in Frameworks */,
+				34DCAE6E1F0646A70034F681 /* SystemConfiguration.framework in Frameworks */,
+				34DCAE6C1F06469F0034F681 /* CoreTelephony.framework in Frameworks */,
+				34DCAE6A1F0646860034F681 /* QuartzCore.framework in Frameworks */,
+				34DCAE681F06467C0034F681 /* CoreText.framework in Frameworks */,
+				34DCAE661F0646740034F681 /* CoreGraphics.framework in Frameworks */,
+				34DCAE631F06462F0034F681 /* libWeChatSDK.a in Frameworks */,
+				34DCAE601F06462F0034F681 /* AlipaySDK.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34DCAE1E1F0645470034F681 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34DCAE291F0645470034F681 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		34DCADFF1F0645470034F681 = {
+			isa = PBXGroup;
+			children = (
+				34DCAE0A1F0645470034F681 /* RSPayAWA */,
+				34DCAE241F0645470034F681 /* RSPayAWATests */,
+				34DCAE2F1F0645470034F681 /* RSPayAWAUITests */,
+				34DCAE091F0645470034F681 /* Products */,
+				34DCAE641F0646740034F681 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		34DCAE091F0645470034F681 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				34DCAE081F0645470034F681 /* RSPayAWA.app */,
+				34DCAE211F0645470034F681 /* RSPayAWATests.xctest */,
+				34DCAE2C1F0645470034F681 /* RSPayAWAUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		34DCAE0A1F0645470034F681 /* RSPayAWA */ = {
+			isa = PBXGroup;
+			children = (
+				34DCAE511F06462F0034F681 /* RSPayManager */,
+				34DCAE0E1F0645470034F681 /* AppDelegate.h */,
+				34DCAE0F1F0645470034F681 /* AppDelegate.m */,
+				34DCAE111F0645470034F681 /* ViewController.h */,
+				34DCAE121F0645470034F681 /* ViewController.m */,
+				34DCAE141F0645470034F681 /* Main.storyboard */,
+				34DCAE171F0645470034F681 /* Assets.xcassets */,
+				34DCAE191F0645470034F681 /* LaunchScreen.storyboard */,
+				34DCAE1C1F0645470034F681 /* Info.plist */,
+				34DCAE0B1F0645470034F681 /* Supporting Files */,
+			);
+			path = RSPayAWA;
+			sourceTree = "<group>";
+		};
+		34DCAE0B1F0645470034F681 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				34DCAE0C1F0645470034F681 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		34DCAE241F0645470034F681 /* RSPayAWATests */ = {
+			isa = PBXGroup;
+			children = (
+				34DCAE251F0645470034F681 /* RSPayAWATests.m */,
+				34DCAE271F0645470034F681 /* Info.plist */,
+			);
+			path = RSPayAWATests;
+			sourceTree = "<group>";
+		};
+		34DCAE2F1F0645470034F681 /* RSPayAWAUITests */ = {
+			isa = PBXGroup;
+			children = (
+				34DCAE301F0645470034F681 /* RSPayAWAUITests.m */,
+				34DCAE321F0645470034F681 /* Info.plist */,
+			);
+			path = RSPayAWAUITests;
+			sourceTree = "<group>";
+		};
+		34DCAE511F06462F0034F681 /* RSPayManager */ = {
+			isa = PBXGroup;
+			children = (
+				34DCAE7F1F06473B0034F681 /* RSPayManager.h */,
+				34DCAE801F06473B0034F681 /* RSPayManager.m */,
+				34DCAE521F06462F0034F681 /* AliPayLib */,
+				34DCAE551F06462F0034F681 /* ApplePayLib */,
+				34DCAE5A1F06462F0034F681 /* WeChatPayLib */,
+			);
+			path = RSPayManager;
+			sourceTree = "<group>";
+		};
+		34DCAE521F06462F0034F681 /* AliPayLib */ = {
+			isa = PBXGroup;
+			children = (
+				34DCAE531F06462F0034F681 /* AlipaySDK.bundle */,
+				34DCAE541F06462F0034F681 /* AlipaySDK.framework */,
+			);
+			path = AliPayLib;
+			sourceTree = "<group>";
+		};
+		34DCAE551F06462F0034F681 /* ApplePayLib */ = {
+			isa = PBXGroup;
+			children = (
+				34DCAE821F06492B0034F681 /* RSApplePay.h */,
+				34DCAE831F06492B0034F681 /* RSApplePay.m */,
+			);
+			path = ApplePayLib;
+			sourceTree = "<group>";
+		};
+		34DCAE5A1F06462F0034F681 /* WeChatPayLib */ = {
+			isa = PBXGroup;
+			children = (
+				34DCAE5B1F06462F0034F681 /* libWeChatSDK.a */,
+				34DCAE5C1F06462F0034F681 /* WechatAuthSDK.h */,
+				34DCAE5D1F06462F0034F681 /* WXApi.h */,
+				34DCAE5E1F06462F0034F681 /* WXApiObject.h */,
+			);
+			path = WeChatPayLib;
+			sourceTree = "<group>";
+		};
+		34DCAE641F0646740034F681 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				34DCAE7D1F0646EB0034F681 /* libsqlite3.0.tbd */,
+				34DCAE7B1F0646E10034F681 /* libz.tbd */,
+				34DCAE791F0646D70034F681 /* libc++.tbd */,
+				34DCAE771F0646CE0034F681 /* Foundation.framework */,
+				34DCAE751F0646C70034F681 /* UIKit.framework */,
+				34DCAE731F0646C20034F681 /* Security.framework */,
+				34DCAE711F0646BA0034F681 /* CoreMotion.framework */,
+				34DCAE6F1F0646B00034F681 /* CFNetwork.framework */,
+				34DCAE6D1F0646A70034F681 /* SystemConfiguration.framework */,
+				34DCAE6B1F06469F0034F681 /* CoreTelephony.framework */,
+				34DCAE691F0646860034F681 /* QuartzCore.framework */,
+				34DCAE671F06467C0034F681 /* CoreText.framework */,
+				34DCAE651F0646740034F681 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		34DCAE071F0645470034F681 /* RSPayAWA */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34DCAE351F0645470034F681 /* Build configuration list for PBXNativeTarget "RSPayAWA" */;
+			buildPhases = (
+				34DCAE041F0645470034F681 /* Sources */,
+				34DCAE051F0645470034F681 /* Frameworks */,
+				34DCAE061F0645470034F681 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RSPayAWA;
+			productName = RSPayAWA;
+			productReference = 34DCAE081F0645470034F681 /* RSPayAWA.app */;
+			productType = "com.apple.product-type.application";
+		};
+		34DCAE201F0645470034F681 /* RSPayAWATests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34DCAE381F0645470034F681 /* Build configuration list for PBXNativeTarget "RSPayAWATests" */;
+			buildPhases = (
+				34DCAE1D1F0645470034F681 /* Sources */,
+				34DCAE1E1F0645470034F681 /* Frameworks */,
+				34DCAE1F1F0645470034F681 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				34DCAE231F0645470034F681 /* PBXTargetDependency */,
+			);
+			name = RSPayAWATests;
+			productName = RSPayAWATests;
+			productReference = 34DCAE211F0645470034F681 /* RSPayAWATests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		34DCAE2B1F0645470034F681 /* RSPayAWAUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34DCAE3B1F0645470034F681 /* Build configuration list for PBXNativeTarget "RSPayAWAUITests" */;
+			buildPhases = (
+				34DCAE281F0645470034F681 /* Sources */,
+				34DCAE291F0645470034F681 /* Frameworks */,
+				34DCAE2A1F0645470034F681 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				34DCAE2E1F0645470034F681 /* PBXTargetDependency */,
+			);
+			name = RSPayAWAUITests;
+			productName = RSPayAWAUITests;
+			productReference = 34DCAE2C1F0645470034F681 /* RSPayAWAUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		34DCAE001F0645470034F681 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = StevenXie;
+				TargetAttributes = {
+					34DCAE071F0645470034F681 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = 7QT42R489Z;
+						ProvisioningStyle = Automatic;
+					};
+					34DCAE201F0645470034F681 = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 34DCAE071F0645470034F681;
+					};
+					34DCAE2B1F0645470034F681 = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 34DCAE071F0645470034F681;
+					};
+				};
+			};
+			buildConfigurationList = 34DCAE031F0645470034F681 /* Build configuration list for PBXProject "RSPayAWA" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 34DCADFF1F0645470034F681;
+			productRefGroup = 34DCAE091F0645470034F681 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				34DCAE071F0645470034F681 /* RSPayAWA */,
+				34DCAE201F0645470034F681 /* RSPayAWATests */,
+				34DCAE2B1F0645470034F681 /* RSPayAWAUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		34DCAE061F0645470034F681 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34DCAE1B1F0645470034F681 /* LaunchScreen.storyboard in Resources */,
+				34DCAE181F0645470034F681 /* Assets.xcassets in Resources */,
+				34DCAE5F1F06462F0034F681 /* AlipaySDK.bundle in Resources */,
+				34DCAE161F0645470034F681 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34DCAE1F1F0645470034F681 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34DCAE2A1F0645470034F681 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		34DCAE041F0645470034F681 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34DCAE131F0645470034F681 /* ViewController.m in Sources */,
+				34DCAE101F0645470034F681 /* AppDelegate.m in Sources */,
+				34DCAE0D1F0645470034F681 /* main.m in Sources */,
+				34DCAE811F06473B0034F681 /* RSPayManager.m in Sources */,
+				34DCAE841F06492B0034F681 /* RSApplePay.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34DCAE1D1F0645470034F681 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34DCAE261F0645470034F681 /* RSPayAWATests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34DCAE281F0645470034F681 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34DCAE311F0645470034F681 /* RSPayAWAUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		34DCAE231F0645470034F681 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 34DCAE071F0645470034F681 /* RSPayAWA */;
+			targetProxy = 34DCAE221F0645470034F681 /* PBXContainerItemProxy */;
+		};
+		34DCAE2E1F0645470034F681 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 34DCAE071F0645470034F681 /* RSPayAWA */;
+			targetProxy = 34DCAE2D1F0645470034F681 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		34DCAE141F0645470034F681 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				34DCAE151F0645470034F681 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		34DCAE191F0645470034F681 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				34DCAE1A1F0645470034F681 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		34DCAE331F0645470034F681 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		34DCAE341F0645470034F681 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		34DCAE361F0645470034F681 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7QT42R489Z;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/RSPayAWA/AliPayLib",
+					"$(PROJECT_DIR)/RSPayAWA/RSPayManager/AliPayLib",
+				);
+				INFOPLIST_FILE = RSPayAWA/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/RSPayAWA/WeChatPayLib",
+					"$(PROJECT_DIR)/RSPayAWA/RSPayManager/WeChatPayLib",
+				);
+				OTHER_LDFLAGS = (
+					"-force_load",
+					"\"$(SRCROOT)/RSPayAWA/RSPayManager/WeChatPayLib/libWeChatSDK.a\"",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = R.S.RSPayAWA;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		34DCAE371F0645470034F681 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7QT42R489Z;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/RSPayAWA/AliPayLib",
+					"$(PROJECT_DIR)/RSPayAWA/RSPayManager/AliPayLib",
+				);
+				INFOPLIST_FILE = RSPayAWA/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/RSPayAWA/WeChatPayLib",
+					"$(PROJECT_DIR)/RSPayAWA/RSPayManager/WeChatPayLib",
+				);
+				OTHER_LDFLAGS = (
+					"-force_load",
+					"\"$(SRCROOT)/RSPayAWA/RSPayManager/WeChatPayLib/libWeChatSDK.a\"",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = R.S.RSPayAWA;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		34DCAE391F0645470034F681 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RSPayAWATests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = R.S.RSPayAWATests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RSPayAWA.app/RSPayAWA";
+			};
+			name = Debug;
+		};
+		34DCAE3A1F0645470034F681 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RSPayAWATests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = R.S.RSPayAWATests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RSPayAWA.app/RSPayAWA";
+			};
+			name = Release;
+		};
+		34DCAE3C1F0645470034F681 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = RSPayAWAUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = R.S.RSPayAWAUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RSPayAWA;
+			};
+			name = Debug;
+		};
+		34DCAE3D1F0645470034F681 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = RSPayAWAUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = R.S.RSPayAWAUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RSPayAWA;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		34DCAE031F0645470034F681 /* Build configuration list for PBXProject "RSPayAWA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34DCAE331F0645470034F681 /* Debug */,
+				34DCAE341F0645470034F681 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		34DCAE351F0645470034F681 /* Build configuration list for PBXNativeTarget "RSPayAWA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34DCAE361F0645470034F681 /* Debug */,
+				34DCAE371F0645470034F681 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		34DCAE381F0645470034F681 /* Build configuration list for PBXNativeTarget "RSPayAWATests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34DCAE391F0645470034F681 /* Debug */,
+				34DCAE3A1F0645470034F681 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		34DCAE3B1F0645470034F681 /* Build configuration list for PBXNativeTarget "RSPayAWAUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34DCAE3C1F0645470034F681 /* Debug */,
+				34DCAE3D1F0645470034F681 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 34DCAE001F0645470034F681 /* Project object */;
+}

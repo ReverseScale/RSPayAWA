@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12118" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12086"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CMC-gD-cYr">
+                                <rect key="frame" x="147" y="131" width="80" height="80"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="80" id="W50-R1-P9c"/>
+                                    <constraint firstAttribute="height" constant="80" id="clM-qy-gwW"/>
+                                </constraints>
+                                <state key="normal" image="zhifubao"/>
+                                <connections>
+                                    <action selector="aliPay:" destination="BYZ-38-t0r" eventType="touchUpInside" id="W0M-w4-52F"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3Ih-0v-UHN">
+                                <rect key="frame" x="147" y="461" width="80" height="80"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="80" id="dEK-d7-0yX"/>
+                                    <constraint firstAttribute="height" constant="80" id="wpw-BV-8dG"/>
+                                </constraints>
+                                <state key="normal" image="applePay"/>
+                                <connections>
+                                    <action selector="applePay:" destination="BYZ-38-t0r" eventType="touchUpInside" id="g06-bj-EqV"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="U9e-l9-YAt">
+                                <rect key="frame" x="83.5" y="237" width="105" height="34"/>
+                                <color key="backgroundColor" red="0.21969082949999999" green="0.66721469160000002" blue="0.98533111809999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <state key="normal" title="  AliWebPay  "/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="naj-2U-xP1">
+                                <rect key="frame" x="187.5" y="401" width="114" height="34"/>
+                                <color key="backgroundColor" red="0.40244752169999998" green="0.82759672399999995" blue="0.091008730230000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <state key="normal" title="  WXWebPay  "/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dDE-0I-MdG">
+                                <rect key="frame" x="147.5" y="293.5" width="80" height="80"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="80" id="8tK-xe-6DI"/>
+                                    <constraint firstAttribute="width" constant="80" id="uGr-vO-HxQ"/>
+                                </constraints>
+                                <state key="normal" image="weixin"/>
+                                <connections>
+                                    <action selector="weiChatPay:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gAc-s0-VZ1"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hPK-C2-zTT">
+                                <rect key="frame" x="56.5" y="563" width="131" height="34"/>
+                                <color key="backgroundColor" red="0.70581406349999998" green="0.70593172309999996" blue="0.70578891040000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <state key="normal" title="  ApplyWebPay  ">
+                                    <color key="titleColor" red="0.19997704029999999" green="0.2000165284" blue="0.1999686658" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="dDE-0I-MdG" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="8UZ-1l-rRn"/>
+                            <constraint firstItem="dDE-0I-MdG" firstAttribute="top" secondItem="U9e-l9-YAt" secondAttribute="bottom" constant="22.5" id="AI5-gX-YOi"/>
+                            <constraint firstItem="dDE-0I-MdG" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="AbT-l4-Lfa"/>
+                            <constraint firstItem="naj-2U-xP1" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="57" id="JAa-Qz-JfI"/>
+                            <constraint firstItem="CMC-gD-cYr" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="OTx-dJ-uHq"/>
+                            <constraint firstItem="naj-2U-xP1" firstAttribute="top" secondItem="dDE-0I-MdG" secondAttribute="bottom" constant="27.5" id="Pkc-CI-uXv"/>
+                            <constraint firstItem="hPK-C2-zTT" firstAttribute="top" secondItem="3Ih-0v-UHN" secondAttribute="bottom" constant="22" id="aT1-J0-j83"/>
+                            <constraint firstItem="3Ih-0v-UHN" firstAttribute="top" secondItem="naj-2U-xP1" secondAttribute="bottom" constant="26" id="ky7-N3-QfJ"/>
+                            <constraint firstItem="U9e-l9-YAt" firstAttribute="top" secondItem="CMC-gD-cYr" secondAttribute="bottom" constant="26" id="qgR-hN-f5K"/>
+                            <constraint firstItem="hPK-C2-zTT" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="-65.5" id="ujI-Qc-ffZ"/>
+                            <constraint firstItem="U9e-l9-YAt" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="-51.5" id="vZT-Xr-gMD"/>
+                            <constraint firstItem="3Ih-0v-UHN" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="wT7-ie-E2p"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="applePay" width="180" height="180"/>
+        <image name="weixin" width="180" height="180"/>
+        <image name="zhifubao" width="180" height="180"/>
+    </resources>
+</document>
