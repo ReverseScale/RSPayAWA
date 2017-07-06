@@ -9,7 +9,10 @@
 
 ### 我的技术博客：https://reversescale.github.io 欢迎来踩
 
-![image](http://og1yl0w9z.bkt.clouddn.com/17-6-30/44407532.jpg)
+| 名称 |1.列表页 |
+| ------------- | ------------- |
+| 截图 | ![](http://og1yl0w9z.bkt.clouddn.com/17-7-6/6294420.jpg) |
+| 描述 | 通过 storyboard 搭建基本框架 |
 
 ## Requirements 要求
 * iOS 7+
