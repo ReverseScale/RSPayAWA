@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		34B53F501F0E3D4D00B83901 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34B53F4F1F0E3D4D00B83901 /* TableViewController.m */; };
 		34DCAE0D1F0645470034F681 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 34DCAE0C1F0645470034F681 /* main.m */; };
 		34DCAE101F0645470034F681 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 34DCAE0F1F0645470034F681 /* AppDelegate.m */; };
 		34DCAE131F0645470034F681 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34DCAE121F0645470034F681 /* ViewController.m */; };
@@ -53,6 +54,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		34B53F4E1F0E3D4D00B83901 /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		34B53F4F1F0E3D4D00B83901 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
 		34DCAE081F0645470034F681 /* RSPayAWA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RSPayAWA.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		34DCAE0C1F0645470034F681 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		34DCAE0E1F0645470034F681 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -163,6 +166,8 @@
 				34DCAE0F1F0645470034F681 /* AppDelegate.m */,
 				34DCAE111F0645470034F681 /* ViewController.h */,
 				34DCAE121F0645470034F681 /* ViewController.m */,
+				34B53F4E1F0E3D4D00B83901 /* TableViewController.h */,
+				34B53F4F1F0E3D4D00B83901 /* TableViewController.m */,
 				34DCAE141F0645470034F681 /* Main.storyboard */,
 				34DCAE171F0645470034F681 /* Assets.xcassets */,
 				34DCAE191F0645470034F681 /* LaunchScreen.storyboard */,
@@ -395,6 +400,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				34DCAE131F0645470034F681 /* ViewController.m in Sources */,
+				34B53F501F0E3D4D00B83901 /* TableViewController.m in Sources */,
 				34DCAE101F0645470034F681 /* AppDelegate.m in Sources */,
 				34DCAE0D1F0645470034F681 /* main.m in Sources */,
 				34DCAE811F06473B0034F681 /* RSPayManager.m in Sources */,
@@ -660,6 +666,7 @@
 				34DCAE371F0645470034F681 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		34DCAE381F0645470034F681 /* Build configuration list for PBXNativeTarget "RSPayAWATests" */ = {
 			isa = XCConfigurationList;
@@ -668,6 +675,7 @@
 				34DCAE3A1F0645470034F681 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		34DCAE3B1F0645470034F681 /* Build configuration list for PBXNativeTarget "RSPayAWAUITests" */ = {
 			isa = XCConfigurationList;
@@ -676,6 +684,7 @@
 				34DCAE3D1F0645470034F681 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
