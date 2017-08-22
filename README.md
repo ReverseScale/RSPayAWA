@@ -6,8 +6,7 @@
 ![](https://img.shields.io/badge/language-Objective--C-orange.svg) 
 ![](https://img.shields.io/badge/download-34.9MB-brightgreen.svg) 
 ![](https://img.shields.io/badge/license-MIT%20License-brightgreen.svg) 
-![](https://travis-ci.org/ReverseScale/RSPayAWA.svg?branch=master)
-[![Build Status](https://travis-ci.org/ReverseScale/RSPayAWA.svg?branch=master)]
+[![Build Status](https://travis-ci.org/ReverseScale/RSPayAWA.svg?branch=master)](https://travis-ci.org/ReverseScale/RSPayAWA)
 
 随着马云先生的一个无现金设想，中国进入了一个移动支付的新纪元，连美国的Apple也坐不住了，推出 Apple Pay想分一杯羹，由于国内一般主流支付只需要支付宝和微信支付，所以就单独封装的 Apple Pay。
 
