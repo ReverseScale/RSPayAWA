@@ -1,12 +1,14 @@
 # RSPayAWA
 
-![image](http://og1yl0w9z.bkt.clouddn.com/17-6-30/21408306.jpg)
-
 ![](https://img.shields.io/badge/platform-iOS-red.svg) 
 ![](https://img.shields.io/badge/language-Objective--C-orange.svg) 
 ![](https://img.shields.io/badge/download-34.9MB-brightgreen.svg) 
 ![](https://img.shields.io/badge/license-MIT%20License-brightgreen.svg) 
 [![Build Status](https://travis-ci.org/ReverseScale/RSPayAWA.svg?branch=master)](https://travis-ci.org/ReverseScale/RSPayAWA)
+
+![image](http://og1yl0w9z.bkt.clouddn.com/17-6-30/21408306.jpg)
+
+[EN](#Requirements) | [中文](#中文说明)
 
 With Mr. Ma's cashless assumption, China has entered a new era of mobile payments. Even Apple in the United States can not afford to launch Apple Pay for a share. As the domestic mainstream payment only requires Alipay and WeChat to be paid, On a separate package of Apple Pay.
 
