@@ -16,10 +16,10 @@ With Mr. Ma's cashless assumption, China has entered a new era of mobile payment
 
 ## 🎨 Why test the UI?
 
-| Name | 1 list page | 2 Alipay payment | 3 WeChat payment |
-| ------------- | ------------- | ------------- | ------------- |
-| Screenshots | ![](http://og1yl0w9z.bkt.clouddn.com/17-7-6/6294420.jpg) | ![](http://og1yl0w9z.bkt.clouddn.com/17-8-21/82506836.jpg) | ![](http://og1yl0w9z.bkt.clouddn.com/17-8-21/77699782.jpg) |
-| Description | Set up a basic framework through the storyboard | Alipay page lack of related profiles | WeChat payment page without related profiles |
+| 1 list page | 2 Alipay payment | 3 WeChat payment |
+| ------------- | ------------- | ------------- |
+| ![](http://og1yl0w9z.bkt.clouddn.com/17-7-6/6294420.jpg) | ![](http://og1yl0w9z.bkt.clouddn.com/17-8-21/82506836.jpg) | ![](http://og1yl0w9z.bkt.clouddn.com/17-8-21/77699782.jpg) |
+| Set up a basic framework through the storyboard | Alipay page lack of related profiles | WeChat payment page without related profiles |
 
 ## 🚀 Advantage 
 * 1. Less documents, code concise
@@ -194,10 +194,10 @@ SOFTWARE.
 #### 我的技术博客：https://reversescale.github.io 欢迎来踩
 
 ## 🎨 测试 UI 什么样子？
-| 名称 |1.列表页 | 2.支付宝支付 |3.微信支付 |
-| ------------- | ------------- | ------------- | ------------- |
-| 截图 | ![](http://og1yl0w9z.bkt.clouddn.com/17-7-6/6294420.jpg) | ![](http://og1yl0w9z.bkt.clouddn.com/17-8-21/82506836.jpg) | ![](http://og1yl0w9z.bkt.clouddn.com/17-8-21/77699782.jpg) |
-| 描述 | 通过 storyboard 搭建基本框架 | 缺少相关配置文件的支付宝页面 | 缺少相关配置文件的微信支付页面 |
+|1.列表页 | 2.支付宝支付 |3.微信支付 |
+| ------------- | ------------- | ------------- |
+| ![](http://og1yl0w9z.bkt.clouddn.com/17-7-6/6294420.jpg) | ![](http://og1yl0w9z.bkt.clouddn.com/17-8-21/82506836.jpg) | ![](http://og1yl0w9z.bkt.clouddn.com/17-8-21/77699782.jpg) |
+| 通过 storyboard 搭建基本框架 | 缺少相关配置文件的支付宝页面 | 缺少相关配置文件的微信支付页面 |
 
 ## 🚀 框架的优势
 * 1.文件少，代码简洁
