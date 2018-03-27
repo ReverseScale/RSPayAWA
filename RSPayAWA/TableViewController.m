@@ -12,7 +12,6 @@
 
 #define IOS_VERSION_10 (NSFoundationVersionNumber > NSFoundationVersionNumber_iOS_9_x_Max)?(YES):(NO)
 
-
 @interface TableViewController ()<RSApplePayDelegate>
 
 @end
@@ -22,7 +21,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    NSLog(@"----->%d",IOS_VERSION_10);
+    NSLog(@"iOS Version is %d",IOS_VERSION_10);
     
     // Uncomment the following line to preserve selection between presentations.
     // self.clearsSelectionOnViewWillAppear = NO;
@@ -76,8 +75,7 @@
     NSString *sourceStr = @"0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ";
     NSMutableString *resultStr = [[NSMutableString alloc] init];
     srand((unsigned)time(0));
-    for (int i = 0; i < kNumber; i++)
-    {
+    for (int i = 0; i < kNumber; i++) {
         unsigned index = rand() % [sourceStr length];
         NSString *oneStr = [sourceStr substringWithRange:NSMakeRange(index, 1)];
         [resultStr appendString:oneStr];
@@ -111,7 +109,7 @@
             dict = [NSJSONSerialization JSONObjectWithData:response options:NSJSONReadingMutableLeaves error:&error];
             
             NSLog(@"url:%@",urlString);
-            if(dict != nil){
+            if(dict != nil) {
                 NSMutableString *retcode = [dict objectForKey:@"retcode"];
                 if (retcode.intValue == 0){
                     NSMutableString *stamp  = [dict objectForKey:@"timestamp"];
@@ -133,16 +131,16 @@
                     //日志输出
                     NSLog(@"appid=%@\npartid=%@\nprepayid=%@\nnoncestr=%@\ntimestamp=%ld\npackage=%@\nsign=%@",[dict objectForKey:@"appid"],req.partnerId,req.prepayId,req.nonceStr,(long)req.timeStamp,req.package,req.sign );
                     return @"";
-                }else{
+                } else {
                     return [dict objectForKey:@"retmsg"];
                 }
-            }else{
+            } else {
                 return @"服务器返回错误，未获取到json对象";
             }
-        }else{
+        } else {
             return @"服务器返回错误";
         }
-    }else{
+    } else {
         if ( task != nil) {
             NSMutableDictionary *dict = NULL;
             //IOS5自带解析类NSJSONSerialization从response中解析出数据放到字典中
@@ -171,13 +169,13 @@
                     //日志输出
                     NSLog(@"appid=%@\npartid=%@\nprepayid=%@\nnoncestr=%@\ntimestamp=%ld\npackage=%@\nsign=%@",[dict objectForKey:@"appid"],req.partnerId,req.prepayId,req.nonceStr,(long)req.timeStamp,req.package,req.sign );
                     return @"";
-                }else{
+                } else {
                     return [dict objectForKey:@"retmsg"];
                 }
-            }else{
+            } else {
                 return @"服务器返回错误，未获取到json对象";
             }
-        }else{
+        } else {
             return @"服务器返回错误";
         }
     }
@@ -202,25 +200,6 @@
             break;
     }
 }
-//- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
-//#warning Incomplete implementation, return the number of sections
-//    return 0;
-//}
-//
-//- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-//#warning Incomplete implementation, return the number of rows
-//    return 0;
-//}
-
-/*
-- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:<#@"reuseIdentifier"#> forIndexPath:indexPath];
-    
-    // Configure the cell...
-    
-    return cell;
-}
-*/
 
 /*
 // Override to support conditional editing of the table view.
@@ -256,14 +235,5 @@
 }
 */
 
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
 
 @end

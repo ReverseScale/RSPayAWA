@@ -35,7 +35,7 @@
             }else{
                 [vc presentViewController:payMentVc animated:YES completion:nil];
             }
-        }else{
+        } else {
             NSLog(@"不支持ApplePay");
         }
     }

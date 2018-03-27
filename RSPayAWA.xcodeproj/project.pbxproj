@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		342D084C2069F6DF008D0F8D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 342D084B2069F6DF008D0F8D /* LaunchScreen.storyboard */; };
 		34B53F501F0E3D4D00B83901 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34B53F4F1F0E3D4D00B83901 /* TableViewController.m */; };
 		34DCAE0D1F0645470034F681 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 34DCAE0C1F0645470034F681 /* main.m */; };
 		34DCAE101F0645470034F681 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 34DCAE0F1F0645470034F681 /* AppDelegate.m */; };
 		34DCAE131F0645470034F681 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34DCAE121F0645470034F681 /* ViewController.m */; };
 		34DCAE161F0645470034F681 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34DCAE141F0645470034F681 /* Main.storyboard */; };
 		34DCAE181F0645470034F681 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34DCAE171F0645470034F681 /* Assets.xcassets */; };
-		34DCAE1B1F0645470034F681 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34DCAE191F0645470034F681 /* LaunchScreen.storyboard */; };
 		34DCAE261F0645470034F681 /* RSPayAWATests.m in Sources */ = {isa = PBXBuildFile; fileRef = 34DCAE251F0645470034F681 /* RSPayAWATests.m */; };
 		34DCAE311F0645470034F681 /* RSPayAWAUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 34DCAE301F0645470034F681 /* RSPayAWAUITests.m */; };
 		34DCAE5F1F06462F0034F681 /* AlipaySDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 34DCAE531F06462F0034F681 /* AlipaySDK.bundle */; };
@@ -54,6 +54,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		342D084B2069F6DF008D0F8D /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		34B53F4E1F0E3D4D00B83901 /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
 		34B53F4F1F0E3D4D00B83901 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
 		34DCAE081F0645470034F681 /* RSPayAWA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RSPayAWA.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -64,7 +65,6 @@
 		34DCAE121F0645470034F681 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		34DCAE151F0645470034F681 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		34DCAE171F0645470034F681 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		34DCAE1A1F0645470034F681 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		34DCAE1C1F0645470034F681 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		34DCAE211F0645470034F681 /* RSPayAWATests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RSPayAWATests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		34DCAE251F0645470034F681 /* RSPayAWATests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RSPayAWATests.m; sourceTree = "<group>"; };
@@ -170,7 +170,7 @@
 				34B53F4F1F0E3D4D00B83901 /* TableViewController.m */,
 				34DCAE141F0645470034F681 /* Main.storyboard */,
 				34DCAE171F0645470034F681 /* Assets.xcassets */,
-				34DCAE191F0645470034F681 /* LaunchScreen.storyboard */,
+				342D084B2069F6DF008D0F8D /* LaunchScreen.storyboard */,
 				34DCAE1C1F0645470034F681 /* Info.plist */,
 				34DCAE0B1F0645470034F681 /* Supporting Files */,
 			);
@@ -371,8 +371,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				34DCAE1B1F0645470034F681 /* LaunchScreen.storyboard in Resources */,
 				34DCAE181F0645470034F681 /* Assets.xcassets in Resources */,
+				342D084C2069F6DF008D0F8D /* LaunchScreen.storyboard in Resources */,
 				34DCAE5F1F06462F0034F681 /* AlipaySDK.bundle in Resources */,
 				34DCAE161F0645470034F681 /* Main.storyboard in Resources */,
 			);
@@ -446,14 +446,6 @@
 				34DCAE151F0645470034F681 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		34DCAE191F0645470034F681 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				34DCAE1A1F0645470034F681 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

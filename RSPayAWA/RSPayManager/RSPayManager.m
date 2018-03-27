@@ -36,12 +36,10 @@
 }
 
 - (BOOL)rs_handleUrl:(NSURL *)url{
-    
     NSAssert(url, RSTIP_CALLBACKURL);
     if ([url.host isEqualToString:@"pay"]) {// 微信
         return [WXApi handleOpenURL:url delegate:self];
-    }
-    else if ([url.host isEqualToString:@"safepay"]) {// 支付宝
+    } else if ([url.host isEqualToString:@"safepay"]) {// 支付宝
         // 支付跳转支付宝钱包进行支付，处理支付结果(在app被杀模式下，通过这个方法获取支付结果）
         [[AlipaySDK defaultService] processOrderWithPaymentResult:url standbyCallback:^(NSDictionary *resultDic) {
             NSString *resultStatus = resultDic[@"resultStatus"];
@@ -81,8 +79,7 @@
             NSLog(@"授权结果 authCode = %@", authCode?:@"");
         }];
         return YES;
-    }
-    else{
+    } else {
         return NO;
     }
 }
@@ -123,8 +120,7 @@
         NSAssert(self.appSchemeDict[RSWECHATURLNAME], RSTIP_URLTYPE_SCHEME(RSWECHATURLNAME));
         
         [WXApi sendReq:(PayReq *)orderMessage];
-    }
-    else if ([orderMessage isKindOfClass:[NSString class]]){
+    } else if ([orderMessage isKindOfClass:[NSString class]]){
         // 支付宝
         NSAssert(![orderMessage isEqualToString:@""], RSTIP_ORDERMESSAGE);
         NSAssert(self.appSchemeDict[RSALIPAYURLNAME], RSTIP_URLTYPE_SCHEME(RSALIPAYURLNAME));
