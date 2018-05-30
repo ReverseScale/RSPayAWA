@@ -189,7 +189,7 @@ SOFTWARE.
 
 ---
 # 中文说明
-随着马云先生的一个无现金设想，中国进入了一个移动支付的新纪元，连美国的Apple也坐不住了，推出 Apple Pay想分一杯羹，由于国内一般主流支付只需要支付宝和微信支付，所以就单独封装的 Apple Pay。
+随着马云先生的一个无现金设想，中国进入了一个移动支付的新纪元，连美国的Apple也坐不住了，推出 Apple Pay 想分一杯羹，由于国内一般主流支付只需要支付宝和微信支付，所以就单独封装的 Apple Pay。
 
 #### 我的技术博客：https://reversescale.github.io 欢迎来踩
 
@@ -215,15 +215,23 @@ SOFTWARE.
 ## 🛠 使用方法
 ### 第一步 将工具文件夹拖入工程文件
 文件夹：RSPayManager 
+
 ### 第二步 配置环境
 引入文件夹 RSPayManager 后一定会报很多错误，不要怕，这些碍眼的红色很快就会消失。
+
 ![image](http://og1yl0w9z.bkt.clouddn.com/17-6-30/32301308.jpg)
+
 依次添加上图架包，注意：微信、支付宝的两个架包在上一步就已经悄悄的进去了。
+
 ![image](http://og1yl0w9z.bkt.clouddn.com/17-6-30/39436315.jpg)
+
 注意可能微信的架包比较倔强，所以要特殊处理一下，不然有几率会在注册时Crash...
+
 ![image](http://og1yl0w9z.bkt.clouddn.com/17-6-30/6112277.jpg)
+
 根据项目目录填写：如我的 "$(SRCROOT)/RSPayAWA/RSPayManager/WeChatPayLib/libWeChatSDK.a"
 ~OK，现在编译 应该不会报错了。
+
 ### 第三步 设置参数
 在 AppDelegate 中进行如下操作（记得引入头文件：#import "RSPayManager.h"）：
 ```
