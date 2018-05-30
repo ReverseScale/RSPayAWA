@@ -39,13 +39,21 @@ With Mr. Ma's cashless assumption, China has entered a new era of mobile payment
 Folder: RSPayManager
 ### The second step to configure the environment
 Introduced folder RSPayManager will certainly reported a lot of mistakes, do not be afraid, these unobtrusive red will soon disappear.
+
 ![image](http://og1yl0w9z.bkt.clouddn.com/17-6-30/32301308.jpg)
+
 Followed by adding the shelf rack, note: WeChat, Alipay two rack package in the previous step has quietly entered.
+
 ![image](http://og1yl0w9z.bkt.clouddn.com/17-6-30/39436315.jpg)
+
 Pay attention to the WeChat shelves relatively stubborn, so special treatment, otherwise there will be a chance when registering Crash ...
+
 ![image](http://og1yl0w9z.bkt.clouddn.com/17-6-30/6112277.jpg)
+
 Fill out according to the project directory: my "$ (SRCROOT) /RSPayAWA/RSPayManager/WeChatPayLib/libWeChatSDK.a"
+
 ~ OK, the compiler should not be an error now.
+
 ### The third step is to set the parameters
 In AppDelegate, do the following (remember to import the header file: #import "RSPayManager.h"):
 ```
