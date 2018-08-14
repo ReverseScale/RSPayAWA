@@ -8,11 +8,9 @@
 
 [EN](https://github.com/ReverseScale/RSPayAWA) | [中文](https://github.com/ReverseScale/RSPayAWA/blob/master/README_zh.md)
 
----
-# 中文说明
 随着马云先生的一个无现金设想，中国进入了一个移动支付的新纪元，连美国的Apple也坐不住了，推出 Apple Pay 想分一杯羹，由于国内一般主流支付只需要支付宝和微信支付，所以就单独封装的 Apple Pay。
 
-#### 我的技术博客：https://reversescale.github.io 欢迎来踩
+#### 我的技术博客：https://reversescale.github.io 😛 欢迎来踩
 
 ## 🎨 测试 UI 什么样子？
 |1.列表页 | 2.支付宝支付 |3.微信支付 |
