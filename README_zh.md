@@ -38,15 +38,9 @@
 ### 第二步 配置环境
 引入文件夹 RSPayManager 后一定会报很多错误，不要怕，这些碍眼的红色很快就会消失。
 
-![image](http://og1yl0w9z.bkt.clouddn.com/17-6-30/32301308.jpg)
-
-依次添加上图架包，注意：微信、支付宝的两个架包在上一步就已经悄悄的进去了。
-
-![image](http://og1yl0w9z.bkt.clouddn.com/17-6-30/39436315.jpg)
+依次添加架包，注意：微信、支付宝的两个架包在上一步就已经悄悄的进去了。
 
 注意可能微信的架包比较倔强，所以要特殊处理一下，不然有几率会在注册时Crash...
-
-![image](http://og1yl0w9z.bkt.clouddn.com/17-6-30/6112277.jpg)
 
 根据项目目录填写：如我的 "$(SRCROOT)/RSPayAWA/RSPayManager/WeChatPayLib/libWeChatSDK.a"
 ~OK，现在编译 应该不会报错了。
