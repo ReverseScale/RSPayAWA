@@ -18,7 +18,7 @@ With Mr. Ma's cashless assumption, China has entered a new era of mobile payment
 
 | 1 list page | 2 Alipay payment | 3 WeChat payment |
 | ------------- | ------------- | ------------- |
-| ![AGBoLt.png](https://s2.ax1x.com/2019/03/23/AGBoLt.png) | ![AGB7eP.png](https://s2.ax1x.com/2019/03/23/AGB7eP.png) | ![AGBHdf.png](https://s2.ax1x.com/2019/03/23/AGBHdf.png) |
+| ![](https://s2.ax1x.com/2019/03/23/AGBoLt.png) | ![](https://s2.ax1x.com/2019/03/23/AGB7eP.png) | ![](https://s2.ax1x.com/2019/03/23/AGBHdf.png) |
 | Set up a basic framework through the storyboard | Alipay page lack of related profiles | WeChat payment page without related profiles |
 
 ## 🚀 Advantage 
