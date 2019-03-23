@@ -15,7 +15,7 @@
 ## 🎨 测试 UI 什么样子？
 |1.列表页 | 2.支付宝支付 |3.微信支付 |
 | ------------- | ------------- | ------------- |
-| ![AGB8rq.png](https://s2.ax1x.com/2019/03/23/AGB8rq.png) | ![AGB3Mn.png](https://s2.ax1x.com/2019/03/23/AGB3Mn.png) | ![AGBlxs.png](https://s2.ax1x.com/2019/03/23/AGBlxs.png) |
+| ![](https://s2.ax1x.com/2019/03/23/AGBoLt.png) | ![](https://s2.ax1x.com/2019/03/23/AGB7eP.png) | ![](https://s2.ax1x.com/2019/03/23/AGBHdf.png) |
 | 通过 storyboard 搭建基本框架 | 缺少相关配置文件的支付宝页面 | 缺少相关配置文件的微信支付页面 |
 
 ## 🚀 框架的优势
