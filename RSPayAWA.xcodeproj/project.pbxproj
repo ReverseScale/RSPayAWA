@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		342D084C2069F6DF008D0F8D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 342D084B2069F6DF008D0F8D /* LaunchScreen.storyboard */; };
 		34B53F501F0E3D4D00B83901 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34B53F4F1F0E3D4D00B83901 /* TableViewController.m */; };
 		34DCAE0D1F0645470034F681 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 34DCAE0C1F0645470034F681 /* main.m */; };
 		34DCAE101F0645470034F681 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 34DCAE0F1F0645470034F681 /* AppDelegate.m */; };
@@ -34,6 +33,8 @@
 		34DCAE7E1F0646EB0034F681 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 34DCAE7D1F0646EB0034F681 /* libsqlite3.0.tbd */; };
 		34DCAE811F06473B0034F681 /* RSPayManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 34DCAE801F06473B0034F681 /* RSPayManager.m */; };
 		34DCAE841F06492B0034F681 /* RSApplePay.m in Sources */ = {isa = PBXBuildFile; fileRef = 34DCAE831F06492B0034F681 /* RSApplePay.m */; };
+		B04832882245DA8D002E5996 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = B04832862245DA8D002E5996 /* Default.png */; };
+		B04832892245DA8D002E5996 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B04832872245DA8D002E5996 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,7 +55,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		342D084B2069F6DF008D0F8D /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		34B53F4E1F0E3D4D00B83901 /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
 		34B53F4F1F0E3D4D00B83901 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
 		34DCAE081F0645470034F681 /* RSPayAWA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RSPayAWA.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -95,6 +95,8 @@
 		34DCAE801F06473B0034F681 /* RSPayManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSPayManager.m; sourceTree = "<group>"; };
 		34DCAE821F06492B0034F681 /* RSApplePay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSApplePay.h; sourceTree = "<group>"; };
 		34DCAE831F06492B0034F681 /* RSApplePay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSApplePay.m; sourceTree = "<group>"; };
+		B04832862245DA8D002E5996 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		B04832872245DA8D002E5996 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -170,8 +172,9 @@
 				34B53F4F1F0E3D4D00B83901 /* TableViewController.m */,
 				34DCAE141F0645470034F681 /* Main.storyboard */,
 				34DCAE171F0645470034F681 /* Assets.xcassets */,
-				342D084B2069F6DF008D0F8D /* LaunchScreen.storyboard */,
 				34DCAE1C1F0645470034F681 /* Info.plist */,
+				B04832862245DA8D002E5996 /* Default.png */,
+				B04832872245DA8D002E5996 /* LaunchScreen.storyboard */,
 				34DCAE0B1F0645470034F681 /* Supporting Files */,
 			);
 			path = RSPayAWA;
@@ -331,7 +334,7 @@
 				TargetAttributes = {
 					34DCAE071F0645470034F681 = {
 						CreatedOnToolsVersion = 8.3;
-						DevelopmentTeam = 7QT42R489Z;
+						DevelopmentTeam = MQ4BAK6QRP;
 						ProvisioningStyle = Automatic;
 					};
 					34DCAE201F0645470034F681 = {
@@ -372,9 +375,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				34DCAE181F0645470034F681 /* Assets.xcassets in Resources */,
-				342D084C2069F6DF008D0F8D /* LaunchScreen.storyboard in Resources */,
 				34DCAE5F1F06462F0034F681 /* AlipaySDK.bundle in Resources */,
 				34DCAE161F0645470034F681 /* Main.storyboard in Resources */,
+				B04832892245DA8D002E5996 /* LaunchScreen.storyboard in Resources */,
+				B04832882245DA8D002E5996 /* Default.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -545,7 +549,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 7QT42R489Z;
+				DEVELOPMENT_TEAM = MQ4BAK6QRP;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/RSPayAWA/AliPayLib",
@@ -571,7 +575,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 7QT42R489Z;
+				DEVELOPMENT_TEAM = MQ4BAK6QRP;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/RSPayAWA/AliPayLib",
