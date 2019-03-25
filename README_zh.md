@@ -4,7 +4,7 @@
 ![](https://img.shields.io/badge/license-MIT%20License-brightgreen.svg) 
 [![Build Status](https://travis-ci.org/ReverseScale/RSPayAWA.svg?branch=master)](https://travis-ci.org/ReverseScale/RSPayAWA)
 
-<img width="460" height="230" src="http://ghexoblogimages.oss-cn-beijing.aliyuncs.com/18-12-4/61187711.jpg"/>
+<img width="460" height="350" src="https://s2.ax1x.com/2019/03/25/At9brT.png"/>
 
 [EN](https://github.com/ReverseScale/RSPayAWA) | [中文](https://github.com/ReverseScale/RSPayAWA/blob/master/README_zh.md)
 
